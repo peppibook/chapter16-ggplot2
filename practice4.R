@@ -6,7 +6,7 @@ library(ggmap)
 #
 # Register your GOOGLE KEY!!
 #
-register_google(key='AIzaSyBClez4HTaT4HL08e487E1NG6T63sBxbDQ')   # Register the google key.
+register_google(key='YOUR_GOOGLE_API_KEY')   # Register the google key.
 
 gc <- geocode(enc2utf8("종로구"))               # longitide and latitude
 gc
